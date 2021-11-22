@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';"/>
+    <title>편입예상시점</title>
+    <style>
+      .m { margin-top: 0; margin-bottom: 1em; }
+    </style>
+  </head>
+  <body>
+    <input id="input-year" class="m" type="number" placeholder="첫 편입 연도 (예: 2022)">
+    <br>
+
+    <input id="input-to" class="m" type="number" placeholder="1년 TO (예: 200)">
+    <br>
+
+    <button id="button-file">파일 선택</button>
+    <p id="p-file" class="m" style="display: inline-block;">선택된 파일 없음</p>
+    <br>
+
+    <button id="button-dir">결과 저장 폴더 선택</button>
+    <p id="p-dir" class="m" style="display: inline-block;">선택된 폴더 없음</p>
+    <br>
+
+    <button id="button-run">처리 시작</button>
+    <p id="p-complete" class="m" style="display: none;">처리 완료</button>
+  </body>
+</html>

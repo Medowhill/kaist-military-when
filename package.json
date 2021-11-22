@@ -1,0 +1,24 @@
+{
+  "name": "kaist-mil-when",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "build": {
+    "productName": "편입예상시점",
+    "appId": "편입예상시점"
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder build --win portable"
+  },
+  "devDependencies": {
+    "electron": "^11.0.4",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "xlsx": "^0.16.9",
+    "xlsx-style": "^0.8.13"
+  }
+}
